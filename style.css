@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+img {
+    
+    height:25vh;
+    transition: all 0.5s ease;
+    
+}
+
+.contenedor {
+    padding: 5px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card {
+
+    height: 370px;
+    width: 270px;
+    margin: 10px;
+    
+}
+
+.card:hover {
+    transition: .5s ease-in;
+}
+
+.card .card-image {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+   
+}
+
+.card .card-name {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    
+}
+
+.card .card-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-button {
+    text-align: center;
+    display: block;
+}
+
+
+
+.card .card-button button {
+    margin-top: 10px;
+    padding: 1rem;
+    font-size: 20px !important;
+}
+
+
+body {
+    padding: 0px 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+p, span, strong, em, code {
+    font-size: larger;
+}
